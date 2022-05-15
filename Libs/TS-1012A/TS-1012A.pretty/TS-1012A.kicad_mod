@@ -1,0 +1,62 @@
+(footprint "TS-1012A" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (descr "https://datasheet.lcsc.com/lcsc/2008251135_XUNPU-TS-1012A-AC05026_C720456.pdf")
+  (fp_text reference "REF**" (at 0 -2.4 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 39a29dbc-2253-4829-81d1-99725ed91908)
+  )
+  (fp_text value "TS-1012A" (at 0 -0.9 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 4192eeef-f2af-4d6d-bc87-06271bbc2ee0)
+  )
+  (fp_text user "${REFERENCE}" (at 0 1.1 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2b32a853-b8a6-4031-b312-2be5deadd503)
+  )
+  (fp_rect (start 1.45 -1.4) (end -1.45 0) (layer "Dwgs.User") (width 0.05) (fill none) (tstamp 166d9f0b-4477-4ff0-bbd4-13d9f8e8a5b9))
+  (fp_rect (start -3 3.6) (end -2.3 2.5) (layer "Dwgs.User") (width 0.05) (fill none) (tstamp 4222b062-637c-4f5a-a4c6-32b1864c5c88))
+  (fp_rect (start 3 0) (end 2.3 -0.35) (layer "Dwgs.User") (width 0.05) (fill none) (tstamp 53febf68-1962-4fd4-8b5e-2efc9f0c3a9a))
+  (fp_rect (start 3 3.6) (end 2.3 2.5) (layer "Dwgs.User") (width 0.05) (fill none) (tstamp af094fbd-bd65-45bc-879e-6436845414f7))
+  (fp_rect (start -3 0) (end -2.3 -0.35) (layer "Dwgs.User") (width 0.05) (fill none) (tstamp c9297758-1f40-4a06-ba3e-fa2241a53b10))
+  (fp_rect (start -3 0) (end 3 3.6) (layer "Dwgs.User") (width 0.05) (fill none) (tstamp d2fb947b-1238-4047-aebc-18012623f35f))
+  (fp_circle (center -1 2.6) (end -0.55 2.6) (layer "Dwgs.User") (width 0.05) (fill none) (tstamp 59c8d9ea-815e-437e-883b-1e9db7481f4b))
+  (fp_circle (center 1 2.6) (end 1.45 2.6) (layer "Dwgs.User") (width 0.05) (fill none) (tstamp b6edd71c-e840-4611-9450-c0622a6e8757))
+  (fp_rect (start -4.25 -0.3) (end 4.25 3.875) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp d4b79388-7016-4697-8c6b-1a312a87e556))
+  (pad "" np_thru_hole circle (at -1 2.6) (size 1 1) (drill 1) (layers F&B.Cu *.Mask) (tstamp 3acdfe2c-095d-46e5-a367-e242649c1659))
+  (pad "" np_thru_hole circle (at 1 2.6) (size 1 1) (drill 1) (layers F&B.Cu *.Mask) (tstamp b75136a1-e4c3-4f5c-b889-320b373499ee))
+  (pad "1" smd custom (at -3.5 0.1) (size 1.5 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+          (xy 0.15 0.4)
+          (xy -0.75 0.4)
+          (xy -0.75 1.2)
+          (xy 0.15 1.2)
+        ) (width 0) (fill yes))
+    ) (tstamp 0ee43ea6-2be3-4031-b4d7-b48d89bce603))
+  (pad "1" smd rect (at -2.625 3) (size 1.25 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 62797c01-7f13-4108-9e82-f01a442f4aba))
+  (pad "2" smd custom (at 3.5 0.1) (size 1.5 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+          (xy -0.15 0.4)
+          (xy 0.75 0.4)
+          (xy 0.75 1.2)
+          (xy -0.15 1.2)
+        ) (width 0) (fill yes))
+    ) (tstamp 29cdf363-c3b4-4a2a-9104-fb87f0b34f9b))
+  (pad "2" smd rect (at 2.625 3) (size 1.25 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 593b0aa0-4c20-4452-bac1-5ccc121ededf))
+  (group "" (id 9114182a-cbf0-4fe9-bda3-33eb382f962a)
+    (members
+      166d9f0b-4477-4ff0-bbd4-13d9f8e8a5b9
+      4222b062-637c-4f5a-a4c6-32b1864c5c88
+      53febf68-1962-4fd4-8b5e-2efc9f0c3a9a
+      59c8d9ea-815e-437e-883b-1e9db7481f4b
+      af094fbd-bd65-45bc-879e-6436845414f7
+      b6edd71c-e840-4611-9450-c0622a6e8757
+      c9297758-1f40-4a06-ba3e-fa2241a53b10
+      d2fb947b-1238-4047-aebc-18012623f35f
+    )
+  )
+)

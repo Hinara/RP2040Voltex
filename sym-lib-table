@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name "WS2812B-4020")(type "KiCad")(uri "${KIPRJMOD}/Libs/WS2812B-4020/WS2812B-4020.kicad_sym")(options "")(descr ""))
+  (lib (name "Type-C")(type "KiCad")(uri "${KIPRJMOD}/Libs/Type-C/Type-C.kicad_sym")(options "")(descr ""))
+  (lib (name "SWD")(type "KiCad")(uri "${KIPRJMOD}/Libs/SWD/SWD.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_RP2040")(type "KiCad")(uri "${KIPRJMOD}/Libs/RP2040/MCU_RaspberryPi_RP2040.kicad_sym")(options "")(descr ""))
+  (lib (name "MX")(type "KiCad")(uri "${KIPRJMOD}/Libs/MX/MX.kicad_sym")(options "")(descr ""))
+  (lib (name "PEC16-4015F-N0024")(type "KiCad")(uri "${KIPRJMOD}/Libs/PEC16-4015F-N0024/PEC16-4015F-N0024.kicad_sym")(options "")(descr ""))
+  (lib (name "K2-1102SP-C4SC-04")(type "KiCad")(uri "${KIPRJMOD}/Libs/K2-1102SP-C4SC-04/K2-1102SP-C4SC-04.kicad_sym")(options "")(descr ""))
+  (lib (name "RT8096C")(type "KiCad")(uri "${KIPRJMOD}/Libs/RT8096C/RT8096C.kicad_sym")(options "")(descr ""))
+)

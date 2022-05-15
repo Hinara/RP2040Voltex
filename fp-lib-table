@@ -1,0 +1,10 @@
+(fp_lib_table
+  (lib (name "Type-C")(type "KiCad")(uri "${KIPRJMOD}/Libs/Type-C/Type-C.pretty")(options "")(descr ""))
+  (lib (name "WS2812B-4020")(type "KiCad")(uri "${KIPRJMOD}/Libs/WS2812B-4020/WS2812B-4020.pretty")(options "")(descr ""))
+  (lib (name "SWD")(type "KiCad")(uri "${KIPRJMOD}/Libs/SWD/SWD.pretty")(options "")(descr ""))
+  (lib (name "RP2040_minimal")(type "KiCad")(uri "${KIPRJMOD}/Libs/RP2040/RP2040_minimal.pretty")(options "")(descr ""))
+  (lib (name "MX")(type "KiCad")(uri "${KIPRJMOD}/Libs/MX/MX.pretty")(options "")(descr ""))
+  (lib (name "PEC16-4015F-N0024")(type "KiCad")(uri "${KIPRJMOD}/Libs/PEC16-4015F-N0024/PEC16-4015F-N0024.pretty")(options "")(descr ""))
+  (lib (name "K2-1102SP-C4SC-04")(type "KiCad")(uri "${KIPRJMOD}/Libs/K2-1102SP-C4SC-04/K2-1102SP-C4SC-04.pretty")(options "")(descr ""))
+  (lib (name "TS-1012A")(type "KiCad")(uri "${KIPRJMOD}/Libs/TS-1012A/TS-1012A.pretty")(options "")(descr ""))
+)
